@@ -1,0 +1,30 @@
+{
+  "name": "museutils",
+  "version": "1.0.0",
+  "description": "前端业务代码工具库",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build-pack": "node script/build-pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanism37/MuseUtils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "JeanwayHwang",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^2.4.2",
+    "ora": "^3.0.0",
+    "rimraf": "^2.6.3",
+    "webpack": "^4.28.4"
+  }
+}
