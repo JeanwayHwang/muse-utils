@@ -5,8 +5,8 @@
  * @return {Number} 
  */
 
- const getRandomNum = (min, max) => {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
- }
+const getRandomNum = (min, max) => {
+   return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
- module.exports = getRandomNum;
+module.exports = getRandomNum;
