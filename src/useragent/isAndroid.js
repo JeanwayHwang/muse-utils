@@ -5,6 +5,6 @@
 
 const isAndroid = () => {
     return navigator.userAgent.toLowerCase().indexOf('android') > -1;
- }
+}
  
 module.exports = isAndroid;

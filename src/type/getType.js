@@ -1,7 +1,7 @@
 /**
  * @desc 获取变量的类型
  * @param {obj} 目标变量
- * @return 
+ * @return {String}
  */
 
 const getType = (obj) => {

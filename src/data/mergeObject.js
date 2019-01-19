@@ -4,10 +4,10 @@
  * @return {Object}
  */
 
-const mergeObject = () => {
-    let newObj = {};
-    for(var i = 0;i < arguments.length;i ++) {
-        let obj = arguments[i];
+const mergeObject = (...params) => {
+    const newObj = {};
+    for(var i = 0;i < params.length;i ++) {
+        let obj = params[i];
         Object.keys(obj).forEach((key) => {
             newObj[key] = obj[key];
         });
