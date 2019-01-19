@@ -1,5 +1,5 @@
 /**
- * @desc 生成指定范围[min, max]的随机数
+ * @desc 生成指定范围的随机数
  * @param {Number} min：下限
  * @param {Number} max：上限
  * @return {Number} 
