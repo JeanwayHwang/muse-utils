@@ -22,6 +22,6 @@ rm(path.resolve(rootPath, 'min', 'museutils.min.js'), err => {
             chunks: false,
             chunkModules: false
         }) + '\n\n');
-        console.log(chalk.cyan('Build Completed!'));
+        console.log(chalk.bgGreen('Build Completed!'));
     });
 });
