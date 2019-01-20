@@ -22,9 +22,16 @@ $ npm install museutils
 ```
 
 ``` javascript
-// 完整引入
-const MuseUtils = require('MuseUtils')
+// 完整引入(CommonJS方式)
+const MuseUtils = require('MuseUtils');
 const isAndroid = MuseUtils.isAndroid();
+
+// 完整引入(ES6方式)
+import MuseUtils form 'MuseUtils';
+const isAndroid = MuseUtils.isAndroid();
+
+import {isAndroid} form 'MuseUtils';
+const isAndroid = isAndroid();
 
 // 部分引入
 const isAndroid = require('MuseUtils/lib/isAndroid');
