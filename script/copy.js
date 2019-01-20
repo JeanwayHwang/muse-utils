@@ -6,6 +6,7 @@ const ora = require('ora');
 const chalk = require('chalk');
 const rootPath = path.resolve(__dirname, '../');
 const targetPath = path.resolve(rootPath, 'lib');
+
 let copying = ora('copying...');
 copying.start();
 
