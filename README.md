@@ -1,4 +1,4 @@
-# muse-utils
+# [muse-utils](https://www.npmjs.com/package/museutils)
 前端业务代码工具库
 
 > 目的：聚合常用的前端业务代码，提升日常开发效率
